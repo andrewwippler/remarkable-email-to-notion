@@ -14,3 +14,8 @@ Apache 2.0
 ## Contributing
 
 Contributions accepted if they do not abrupt my workflow.
+
+## Docs
+
+https://developers.notion.com/docs/getting-started
+https://www.qloudx.com/automate-incoming-email-processing-with-amazon-ses-aws-lambda/
