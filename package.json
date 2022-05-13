@@ -1,7 +1,8 @@
 {
   "dependencies": {
     "@notionhq/client": "^1.0.4",
-    "aws-sdk": "^2.1134.0"
+    "aws-sdk": "^2.1134.0",
+    "mailparser": "^3.5.0"
   },
   "name": "remarkable-email-to-notion",
   "description": "I like control of my data and utilizing what is already free to me. This project is not intended to replace services such as [https://taskrobin.io/](taskrobin.io). (Although, I think there might be a security issue as remarkable sends from the same email address.)",
