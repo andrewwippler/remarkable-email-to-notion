@@ -17,5 +17,16 @@ Contributions accepted if they do not abrupt my workflow.
 
 ## Docs
 
-https://developers.notion.com/docs/getting-started
-https://www.qloudx.com/automate-incoming-email-processing-with-amazon-ses-aws-lambda/
+1. https://developers.notion.com/docs/getting-started  
+2. https://www.qloudx.com/automate-incoming-email-processing-with-amazon-ses-aws-lambda/
+3. https://docs.aws.amazon.com/ses/latest/dg/regions.html#region-receive-email  
+Create a new database. The default settings will do; however, I have removed the tags column.
+
+## Misc Debugging
+
+1. Ensure the lambda function has access to the S3 bucket.
+2. Increase the RAM to 256mb on the function.
+3. `aws_upload.sh` is a helper to upload the code to aws.
+4. Ensure you have SES incoming email routed properly (it involves an MX record that begins with `inbound`. (See number 3 link in docs.)
+
+
