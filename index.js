@@ -3,7 +3,7 @@ const { Client } = require("@notionhq/client");
 
 const bucket = process.env.S3_BUCKET || '';
 const notion = new Client({
-  auth: process.env.NOTION_TOKEN,
+  auth: process.env.NOTION_KEY,
 });
 
 const authorized_emails = process.env.COMMA_SEPARATED_EMAILS || 'my@remarkable.com';
